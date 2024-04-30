@@ -66,8 +66,8 @@ class Duration
 
         $this->daysRegex = '/([0-9\.]+)\s?(?:d|D)/';
         $this->hoursRegex = '/([0-9\.]+)\s?(?:h|H)/';
-        $this->minutesRegex = '/([0-9]{1,2})\s?(?:m|M)/';
-        $this->secondsRegex = '/([0-9]{1,2}(\.\d+)?)\s?(?:s|S)/';
+        $this->minutesRegex = '/([0-9]{1,4})\s?(?:m|M)/';
+        $this->secondsRegex = '/([0-9]{1,5}(\.\d+)?)\s?(?:s|S)/';
 
         $this->hoursPerDay = $hoursPerDay;
 
